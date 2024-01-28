@@ -2,7 +2,7 @@
  * gpio.h
  *
  *  Created on: Jan 28, 2024
- *      Author: marko
+ *      Author: Marko Topalovic
  */
 
 #ifndef LIB_PERIPHERY_GPIO_GPIO_H_
