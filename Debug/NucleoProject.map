@@ -2694,14 +2694,14 @@ OUTPUT(NucleoProject.elf elf32-littlearm)
 .debug_macro    0x0000000000000000    0x13fb8
  .debug_macro   0x0000000000000000      0x1ba Core/Lib/Periphery/GPIO/gpio.o
  .debug_macro   0x00000000000001ba      0xa5a Core/Lib/Periphery/GPIO/gpio.o
- .debug_macro   0x0000000000000c14       0x22 Core/Lib/Periphery/GPIO/gpio.o
- .debug_macro   0x0000000000000c36       0x8e Core/Lib/Periphery/GPIO/gpio.o
- .debug_macro   0x0000000000000cc4       0x51 Core/Lib/Periphery/GPIO/gpio.o
- .debug_macro   0x0000000000000d15       0xef Core/Lib/Periphery/GPIO/gpio.o
- .debug_macro   0x0000000000000e04       0x6a Core/Lib/Periphery/GPIO/gpio.o
- .debug_macro   0x0000000000000e6e      0x1df Core/Lib/Periphery/GPIO/gpio.o
- .debug_macro   0x000000000000104d       0x32 Core/Lib/Periphery/GPIO/gpio.o
- .debug_macro   0x000000000000107f       0x28 Core/Lib/Periphery/GPIO/gpio.o
+ .debug_macro   0x0000000000000c14       0x32 Core/Lib/Periphery/GPIO/gpio.o
+ .debug_macro   0x0000000000000c46       0x28 Core/Lib/Periphery/GPIO/gpio.o
+ .debug_macro   0x0000000000000c6e       0x22 Core/Lib/Periphery/GPIO/gpio.o
+ .debug_macro   0x0000000000000c90       0x8e Core/Lib/Periphery/GPIO/gpio.o
+ .debug_macro   0x0000000000000d1e       0x51 Core/Lib/Periphery/GPIO/gpio.o
+ .debug_macro   0x0000000000000d6f       0xef Core/Lib/Periphery/GPIO/gpio.o
+ .debug_macro   0x0000000000000e5e       0x6a Core/Lib/Periphery/GPIO/gpio.o
+ .debug_macro   0x0000000000000ec8      0x1df Core/Lib/Periphery/GPIO/gpio.o
  .debug_macro   0x00000000000010a7       0x1c Core/Lib/Periphery/GPIO/gpio.o
  .debug_macro   0x00000000000010c3       0x22 Core/Lib/Periphery/GPIO/gpio.o
  .debug_macro   0x00000000000010e5       0xdf Core/Lib/Periphery/GPIO/gpio.o

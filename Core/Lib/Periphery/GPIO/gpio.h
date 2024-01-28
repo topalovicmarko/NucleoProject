@@ -8,8 +8,8 @@
 #ifndef LIB_PERIPHERY_GPIO_GPIO_H_
 #define LIB_PERIPHERY_GPIO_GPIO_H_
 
-#include <stdint.h>
 #include "stm32f4xx.h"
+#include <stdint.h>
 
 void gpio_init(void);
 
