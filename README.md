@@ -8,3 +8,4 @@
 ## 1. General purpose Input/Output
 
     Refrence manual GPIO: page 281
+    RCC registers for enable peripheries: page 224.

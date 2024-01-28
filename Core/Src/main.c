@@ -74,7 +74,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+  gpio_init();
   /* USER CODE END Init */
 
   /* Configure the system clock */
