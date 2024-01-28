@@ -11,4 +11,5 @@
     RCC registers for enable peripheries: page 224.
 
 ### Pinouts
-<img src="./Assets/STM32-Nucleo-F401RE-Pinout.png" alt="drawing" width="600"/>
+
+![Pinout](./Assets/STM32-Nucleo-F401RE-Pinout.png)
