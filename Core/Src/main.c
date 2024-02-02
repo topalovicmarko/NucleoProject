@@ -95,6 +95,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  if ((GPIOC->IDR & (0b1 << 13)) == 0){
+		  GPIOA->ODR |= (0b1 << 6);
+	  }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
