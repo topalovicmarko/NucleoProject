@@ -11,6 +11,7 @@
 #include "stm32f4xx.h"
 #include <stdint.h>
 
+//Function prototypes
 void gpio_init(void);
 
 #endif /* LIB_PERIPHERY_GPIO_GPIO_H_ */

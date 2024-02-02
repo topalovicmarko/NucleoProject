@@ -33,6 +33,7 @@ extern "C" {
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "../Lib/Periphery/GPIO/gpio.h"
+#include "../Lib/Periphery/TIMER/timer.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/

@@ -7,10 +7,12 @@
 
 #include "gpio.h"
 
+//Function prototypes
 static void init_port_a(void);
 static void init_port_c(void);
 
 void gpio_init(void) {
+
 	init_port_a();
 	init_port_c();
 }

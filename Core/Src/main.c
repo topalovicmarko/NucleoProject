@@ -75,6 +75,9 @@ int main(void)
 
   /* USER CODE BEGIN Init */
   gpio_init();
+  timer_init();
+  timers_irq_init();
+  __enable_irq();
   /* USER CODE END Init */
 
   /* Configure the system clock */

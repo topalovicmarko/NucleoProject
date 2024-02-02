@@ -18,6 +18,7 @@ OBJCOPY_BIN :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 Core/Lib/Periphery/GPIO \
+Core/Lib/Periphery/TIMER \
 Core/Src \
 Core/Startup \
 Drivers/STM32F4xx_HAL_Driver/Src \
