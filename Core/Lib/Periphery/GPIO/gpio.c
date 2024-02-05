@@ -26,11 +26,11 @@ static void init_port_a(void) {
 
 	GPIOA->MODER |= (0b01 << 2 * pin_5);	//Output mode
 	GPIOA->OTYPER &= ~(0b1 << pin_5);		//Output push-pull
-	GPIOA->ODR |= (0b1 << pin_5);			//Output data
+	GPIOA->ODR &= ~(0b1 << pin_5);			//Output data
 
 	GPIOA->MODER |= (0b01 << 2 * pin_6);	//Output mode
 	GPIOA->OTYPER &= ~(0b1 << pin_6);		//Output push-pull
-	GPIOA->ODR |= (0b0 << pin_6);			//Output data
+	GPIOA->ODR &= ~(0b1 << pin_6);			//Output data
 
 }
 
@@ -43,4 +43,26 @@ static void init_port_c(void) {
 	GPIOC->MODER |= (0b00 << 2 * pin_13);	//Input mode
 	GPIOC->PUPDR |= (0b01 << 2 * pin_13);	//Pull-up
 
+}
+
+void external_LED_with_button(void){
+	if ((GPIOC->IDR & (0b1 << 13)) == 0){
+			  GPIOA->ODR |= (0b1 << 6);
+		  }
+}
+
+void toggling_LED(){
+
+	/*
+	 * Solution 1
+	 if(getSysTime()%1000 == 0){
+			  GPIOA->ODR ^= (0b1 << 5);
+		  }
+	*/
+
+	//Soltion 2
+	setTimeOut(1000);
+		  if (isTimeOut() == 1){
+			  GPIOA->ODR ^= (0b1 << 5);
+		  }
 }

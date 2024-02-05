@@ -74,10 +74,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-  gpio_init();
-  timer_init();
-  timers_irq_init();
-  __enable_irq();
+
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -89,18 +86,19 @@ int main(void)
 
   /* Initialize all configured peripherals */
   /* USER CODE BEGIN 2 */
-
+  gpio_init();
+  timer_init();
+  timers_irq_init();
+  __enable_irq();
   /* USER CODE END 2 */
  
  
-
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  if ((GPIOC->IDR & (0b1 << 13)) == 0){
-		  GPIOA->ODR |= (0b1 << 6);
-	  }
+	  external_LED_with_button();
+	  toggling_LED();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

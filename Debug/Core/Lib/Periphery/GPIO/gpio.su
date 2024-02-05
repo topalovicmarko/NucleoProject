@@ -1,3 +1,5 @@
 gpio.c:14:6:gpio_init	8	static
 gpio.c:20:13:init_port_a	16	static
 gpio.c:37:13:init_port_c	16	static
+gpio.c:48:6:external_LED_with_button	4	static
+gpio.c:54:6:toggling_LED	8	static
