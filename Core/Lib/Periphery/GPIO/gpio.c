@@ -60,7 +60,7 @@ void toggling_LED(){
 		  }
 	*/
 
-	//Soltion 2
+	//Solution 2
 	setTimeOut(1000);
 		  if (isTimeOut() == 1){
 			  GPIOA->ODR ^= (0b1 << 5);

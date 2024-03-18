@@ -550,7 +550,7 @@ void toggling_LED(){
 		  }
 	*/
 
-	//Soltion 2
+	//Solution 2
 	setTimeOut(1000);
  8000614:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
  8000618:	f000 f876 	bl	8000708 <setTimeOut>
